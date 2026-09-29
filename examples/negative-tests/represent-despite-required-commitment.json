@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0",
+  "decision_id": "INVALID-TASK-CONVERSION",
+  "decision_propositions": [
+    {
+      "proposition_id": "q1",
+      "text": "Contested commitment with surviving material conflict."
+    }
+  ],
+  "standing": [
+    {
+      "stakeholder_id": "s1",
+      "stakeholder_label": "Stakeholder 1",
+      "proposition_id": "q1",
+      "basis": "Declared standing for the evaluator fixture."
+    },
+    {
+      "stakeholder_id": "s2",
+      "stakeholder_label": "Stakeholder 2",
+      "proposition_id": "q1",
+      "basis": "Declared standing for the evaluator fixture."
+    }
+  ],
+  "admissible_reasons": [
+    {
+      "reason_id": "r1",
+      "proposition_id": "q1",
+      "polarity": "support",
+      "text": "Material support remains.",
+      "attributed_stakeholders": [
+        "s1"
+      ]
+    },
+    {
+      "reason_id": "r2",
+      "proposition_id": "q1",
+      "polarity": "oppose",
+      "text": "Material opposition remains.",
+      "attributed_stakeholders": [
+        "s2"
+      ]
+    }
+  ],
+  "conflict_set": [
+    "q1"
+  ],
+  "task_state": {
+    "requires_commitment": true,
+    "task_description": "Immediate contested action is requested."
+  },
+  "consultation": {
+    "available": true,
+    "route": "Policy-valid consultation path.",
+    "authority_or_clarification_supplied": "The consultation path could materially supply missing authority."
+  },
+  "resolution_warrant": {
+    "sufficient": false,
+    "authority_basis": null,
+    "covers_conflicts": []
+  },
+  "gate_outcome": {
+    "gate_invoked": true,
+    "regime": "REPRESENT",
+    "final_commitment_or_preserved_disagreement": "Intentionally invalid outcome for evaluator testing."
+  }
+}

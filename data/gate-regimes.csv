@@ -1,0 +1,5 @@
+regime,condition,operational_interpretation
+REPRESENT,not Req(d),The task calls for presentation rather than commitment; preserve the material conflict for the user or downstream decision-maker.
+RESOLVE,Req(d) and W_Pi(d),Commitment is required and a sufficient warrant covers every material unresolved conflict relevant to the commitment.
+CONSULT,Req(d) and not W_Pi(d) and C_Pi(d),"Commitment is required, a sufficient warrant is absent, and consultation can materially supply or clarify the needed authority."
+DEFER,otherwise,"Commitment is required, a sufficient warrant is absent, and no policy-valid consultation path can close the authority gap in time."

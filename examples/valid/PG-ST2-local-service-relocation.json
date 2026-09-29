@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.0",
+  "decision_id": "PG-ST2",
+  "decision_propositions": [
+    {
+      "proposition_id": "q1",
+      "text": "Relocate the local service under the current proposal."
+    }
+  ],
+  "standing": [
+    {
+      "stakeholder_id": "administrative-decision-maker",
+      "stakeholder_label": "Administrative decision-maker",
+      "proposition_id": "q1",
+      "basis": "Illustrative completion of the administrative side of the case; Table 2 states that both sides retain standing."
+    },
+    {
+      "stakeholder_id": "affected-community",
+      "stakeholder_label": "Directly affected linguistic community",
+      "proposition_id": "q1",
+      "basis": "Direct affectedness in the specification case."
+    }
+  ],
+  "admissible_reasons": [
+    {
+      "reason_id": "r1",
+      "proposition_id": "q1",
+      "polarity": "support",
+      "text": "Administrative material favors consolidation.",
+      "attributed_stakeholders": [
+        "administrative-decision-maker"
+      ]
+    },
+    {
+      "reason_id": "r2",
+      "proposition_id": "q1",
+      "polarity": "oppose",
+      "text": "The directly affected linguistic community opposes relocation.",
+      "attributed_stakeholders": [
+        "affected-community"
+      ]
+    }
+  ],
+  "conflict_set": [
+    "q1"
+  ],
+  "task_state": {
+    "requires_commitment": true,
+    "task_description": "A recommendation is requested."
+  },
+  "consultation": {
+    "available": true,
+    "route": "Consult the directly affected linguistic community.",
+    "authority_or_clarification_supplied": "Affected-party input can materially supply the missing authority."
+  },
+  "resolution_warrant": {
+    "sufficient": false,
+    "authority_basis": null,
+    "covers_conflicts": []
+  },
+  "gate_outcome": {
+    "gate_invoked": true,
+    "regime": "CONSULT",
+    "final_commitment_or_preserved_disagreement": "Consultation precedes a contested recommendation."
+  },
+  "notes": [
+    "Table 2 names administrative material but not a specific administrative actor. This record uses an administrative decision-maker as the actor supplying that side of the worked example."
+  ]
+}

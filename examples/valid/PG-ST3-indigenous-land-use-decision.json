@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.0",
+  "decision_id": "PG-ST3",
+  "decision_propositions": [
+    {
+      "proposition_id": "q1",
+      "text": "Proceed with the contested development decision."
+    }
+  ],
+  "standing": [
+    {
+      "stakeholder_id": "planning-authority",
+      "stakeholder_label": "Planning authority",
+      "proposition_id": "q1",
+      "basis": "Illustrative completion of the national-planning side of the case."
+    },
+    {
+      "stakeholder_id": "affected-indigenous-community",
+      "stakeholder_label": "Directly affected Indigenous community",
+      "proposition_id": "q1",
+      "basis": "Direct affectedness, governance, and land relation in the specification case."
+    }
+  ],
+  "admissible_reasons": [
+    {
+      "reason_id": "r1",
+      "proposition_id": "q1",
+      "polarity": "support",
+      "text": "National planning sources favor development.",
+      "attributed_stakeholders": [
+        "planning-authority"
+      ]
+    },
+    {
+      "reason_id": "r2",
+      "proposition_id": "q1",
+      "polarity": "oppose",
+      "text": "The directly affected Indigenous community rejects the project under its own governance and land relation.",
+      "attributed_stakeholders": [
+        "affected-indigenous-community"
+      ]
+    }
+  ],
+  "conflict_set": [
+    "q1"
+  ],
+  "task_state": {
+    "requires_commitment": true,
+    "task_description": "A consequential commitment is requested."
+  },
+  "consultation": {
+    "available": false,
+    "route": null,
+    "authority_or_clarification_supplied": null
+  },
+  "resolution_warrant": {
+    "sufficient": false,
+    "authority_basis": null,
+    "covers_conflicts": []
+  },
+  "gate_outcome": {
+    "gate_invoked": true,
+    "regime": "DEFER",
+    "final_commitment_or_preserved_disagreement": "The decision is deferred because the case supplies no warrant authorizing the agent to choose for the affected community."
+  },
+  "notes": [
+    "Table 2 refers to national planning sources rather than naming an actor. This record uses a planning authority to complete the machine-readable example."
+  ]
+}

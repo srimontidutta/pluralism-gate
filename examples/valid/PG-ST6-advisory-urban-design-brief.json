@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0",
+  "decision_id": "PG-ST6",
+  "decision_propositions": [
+    {
+      "proposition_id": "q1",
+      "text": "Prioritize quieter streets over vehicle access in the advisory brief."
+    }
+  ],
+  "standing": [
+    {
+      "stakeholder_id": "residents",
+      "stakeholder_label": "Residents",
+      "proposition_id": "q1",
+      "basis": "The specification case retains residents' position in the material conflict."
+    },
+    {
+      "stakeholder_id": "businesses",
+      "stakeholder_label": "Businesses",
+      "proposition_id": "q1",
+      "basis": "The specification case retains businesses' position in the material conflict."
+    }
+  ],
+  "admissible_reasons": [
+    {
+      "reason_id": "r1",
+      "proposition_id": "q1",
+      "polarity": "support",
+      "text": "Residents favor quieter streets.",
+      "attributed_stakeholders": [
+        "residents"
+      ]
+    },
+    {
+      "reason_id": "r2",
+      "proposition_id": "q1",
+      "polarity": "oppose",
+      "text": "Businesses favor vehicle access.",
+      "attributed_stakeholders": [
+        "businesses"
+      ]
+    }
+  ],
+  "conflict_set": [
+    "q1"
+  ],
+  "task_state": {
+    "requires_commitment": false,
+    "task_description": "Prepare an advisory brief for a human committee."
+  },
+  "consultation": {
+    "available": false,
+    "route": null,
+    "authority_or_clarification_supplied": null
+  },
+  "resolution_warrant": {
+    "sufficient": false,
+    "authority_basis": null,
+    "covers_conflicts": []
+  },
+  "gate_outcome": {
+    "gate_invoked": true,
+    "regime": "REPRESENT",
+    "final_commitment_or_preserved_disagreement": "The brief preserves the material conflict for the human committee."
+  }
+}

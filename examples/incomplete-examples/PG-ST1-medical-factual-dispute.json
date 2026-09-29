@@ -1,0 +1,10 @@
+{
+  "repository_id": "PG-ST1",
+  "case": "Medical factual dispute",
+  "paper_source": "Table 2",
+  "conflict_reaching_system": "A well-supported treatment effect is opposed by retrieved claims whose factual premises fail the applicable evidence standard.",
+  "relevant_distinction": "Factual defeat occurs before standing-grounded conflict is constructed.",
+  "expected_disposition": "ORDINARY_RESOLUTION",
+  "basis": "The defeated reasons do not create B, so the Gate is not invoked.",
+  "note": "The case resolves during evidential screening, and Table 2 does not specify the stakeholder attribution needed for a complete decision record."
+}

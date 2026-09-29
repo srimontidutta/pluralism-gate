@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.0",
+  "decision_id": "PG-ST4",
+  "decision_propositions": [
+    {
+      "proposition_id": "q1",
+      "text": "Select between two reasonable itineraries that trade lower cost against accessibility."
+    }
+  ],
+  "standing": [
+    {
+      "stakeholder_id": "user",
+      "stakeholder_label": "User",
+      "proposition_id": "q1",
+      "basis": "The specification case identifies the user as the person who controls the preference."
+    }
+  ],
+  "admissible_reasons": [
+    {
+      "reason_id": "r1",
+      "proposition_id": "q1",
+      "polarity": "support",
+      "text": "Lower cost is a relevant consideration in choosing between the itineraries.",
+      "attributed_stakeholders": [
+        "user"
+      ]
+    },
+    {
+      "reason_id": "r2",
+      "proposition_id": "q1",
+      "polarity": "oppose",
+      "text": "Accessibility is a relevant consideration in choosing between the itineraries.",
+      "attributed_stakeholders": [
+        "user"
+      ]
+    }
+  ],
+  "conflict_set": [
+    "q1"
+  ],
+  "task_state": {
+    "requires_commitment": true,
+    "task_description": "The itinerary must be finalized."
+  },
+  "consultation": {
+    "available": true,
+    "route": "Query the user directly.",
+    "authority_or_clarification_supplied": "The user's choice can supply a sufficient warrant before finalization."
+  },
+  "resolution_warrant": {
+    "sufficient": false,
+    "authority_basis": null,
+    "covers_conflicts": []
+  },
+  "gate_outcome": {
+    "gate_invoked": true,
+    "regime": "CONSULT",
+    "final_commitment_or_preserved_disagreement": "The user is consulted before the itinerary is finalized."
+  },
+  "notes": [
+    "The case states that the user controls the preference but has not specified a priority. The two reasons represent the competing cost and accessibility considerations in that user-controlled choice."
+  ]
+}

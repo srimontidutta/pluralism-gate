@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "decision_id": "replace-with-record-id",
+  "decision_propositions": [
+    {
+      "proposition_id": "q1",
+      "text": "replace with action-relevant proposition"
+    }
+  ],
+  "standing": [],
+  "admissible_reasons": [],
+  "conflict_set": [],
+  "task_state": {
+    "requires_commitment": false,
+    "task_description": ""
+  },
+  "consultation": {
+    "available": false,
+    "route": null,
+    "authority_or_clarification_supplied": null
+  },
+  "resolution_warrant": {
+    "sufficient": false,
+    "authority_basis": null,
+    "covers_conflicts": []
+  },
+  "gate_outcome": {
+    "gate_invoked": false,
+    "regime": null,
+    "final_commitment_or_preserved_disagreement": null
+  }
+}
